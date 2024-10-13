@@ -12,9 +12,6 @@ struct matrix_t
 
 
 
-
-
-
 float MatGetElem(const matrix_t* mat, size_t row, size_t col) 
 {
     if (row >= mat->n_rows || col >= mat->n_cols) 
